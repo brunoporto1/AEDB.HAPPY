@@ -1,0 +1,12 @@
+D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.model\bin\Debug\net6.0\HAPPYWeb.model.deps.json
+D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.model\bin\Debug\net6.0\HAPPYWeb.model.dll
+D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.model\bin\Debug\net6.0\HAPPYWeb.model.pdb
+D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.model\obj\Debug\net6.0\HAPPYWeb.model.csproj.AssemblyReference.cache
+D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.model\obj\Debug\net6.0\HAPPYWeb.model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.model\obj\Debug\net6.0\HAPPYWeb.model.AssemblyInfoInputs.cache
+D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.model\obj\Debug\net6.0\HAPPYWeb.model.AssemblyInfo.cs
+D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.model\obj\Debug\net6.0\HAPPYWeb.model.csproj.CoreCompileInputs.cache
+D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.model\obj\Debug\net6.0\HAPPYWeb.model.dll
+D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.model\obj\Debug\net6.0\refint\HAPPYWeb.model.dll
+D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.model\obj\Debug\net6.0\HAPPYWeb.model.pdb
+D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.model\obj\Debug\net6.0\ref\HAPPYWeb.model.dll

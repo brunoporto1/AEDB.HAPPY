@@ -1,0 +1,50 @@
+﻿@model IEnumerable<HAPPYWeb.model.Tbmarca>
+
+@{
+    ViewData["Title"] = "Marcas";
+}
+
+<div class="text-center">
+<h1><strong>Lista de marcas</strong></h1>
+</div>
+
+<p>
+    <a asp-action="Create">Registrar marca</a>
+</p>
+<hr class="divider">
+
+<table class="table table table-success table-responsive table-bordered">
+    <thead>
+        <tr class="text-center">
+
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            
+            <td class="text-center">
+                <a asp-action="Edit" asp-route-id="@item.Id">Alterar</a> |
+                @*<a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |*@
+                <a asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+            </td>
+           
+        </tr>
+}
+    </tbody>
+</table>

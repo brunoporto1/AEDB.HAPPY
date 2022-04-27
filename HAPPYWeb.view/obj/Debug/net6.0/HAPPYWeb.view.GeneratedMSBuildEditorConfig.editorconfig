@@ -1,0 +1,72 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HAPPYWeb.view
+build_property.RootNamespace = HAPPYWeb.view
+build_property.ProjectDir = D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.view\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.view
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Marcas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Marcas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Marcas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Produtos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Produtos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Produtos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Shared/_Layout_Novo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfTm92by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tjubgtd24w
