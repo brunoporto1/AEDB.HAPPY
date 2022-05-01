@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Faculdade\5º Período\Desenvolvimento de Sistemas Web com.NET\HAPPYWeb\HAPPYWeb.view
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Funcionarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Funcionarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Funcionarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Faculdade/5º Período/Desenvolvimento de Sistemas Web com.NET/HAPPYWeb/HAPPYWeb.view/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -59,8 +59,10 @@
             Mercadoria
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="Produtos">Produtos</a></li>
-            <li><a class="dropdown-item" href="Marcas">Marcas</a></li>
+         @*   <li><a class="dropdown-item" href="Produtos">Produtos</a></li>
+            <li><a class="dropdown-item" href="Marcas">Marcas</a></li>*@
+            <li><a class="nav-link" asp-area="" asp-controller="Marcas" asp-action="Index">Marcas</a></li>
+            <li><a class="nav-link" asp-area="" asp-controller="Produtos" asp-action="Index">Produtos</a></li>
           </ul>
         </li>
 
@@ -70,7 +72,8 @@
             Funcionários
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="Funcionarios">Registros</a></li>
+            @*<li><a class="dropdown-item" href="Funcionarios">Registros</a></li>*@
+            <li><a class="nav-link" asp-area="" asp-controller="Funcionarios" asp-action="Index">Funcionarios</a></li>
           </ul>
         </li>
 

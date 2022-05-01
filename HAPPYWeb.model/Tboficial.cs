@@ -12,41 +12,66 @@ namespace HAPPYWeb.model
     public partial class Tboficial
     {
         [Key]
+        [Display(Name = "Código")]
+
         public int Codigo { get; set; }
+
+
         [Required]
         [StringLength(30)]
         [Unicode(false)]
         public string Nome { get; set; }
+
+
         [Required]
         [Column("CPF")]
         [StringLength(11)]
         [Unicode(false)]
+        [Display(Name = "CPF")]
         public string Cpf { get; set; }
+
+
         [Required]
         [StringLength(25)]
         [Unicode(false)]
+        [Display(Name = "Endereço")]
         public string Endereco { get; set; }
+
+
         [Required]
         [StringLength(25)]
         [Unicode(false)]
         public string Bairro { get; set; }
+
+
         [Required]
         [StringLength(20)]
         [Unicode(false)]
         public string Cidade { get; set; }
+
+
         [Required]
         [Column("CEP")]
         [StringLength(8)]
         [Unicode(false)]
+        [Display(Name = "CEP")]
         public string Cep { get; set; }
+
+
         [Required]
         [StringLength(11)]
         [Unicode(false)]
         public string Telefone { get; set; }
+
+
         [Required]
         [StringLength(50)]
         [Unicode(false)]
+        [Display(Name = "E-mail")]
+        [RegularExpression(".+\\@.+\\..+", ErrorMessage = "Informe um e-mail válido.")]
         public string Email { get; set; }
+
+
         [Required]
         [StringLength(20)]
         [Unicode(false)]
