@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using HAPPYWeb.model;
+using Microsoft.EntityFrameworkCore;
+
 namespace HAPPYWeb.view.Controllers
 {
     public class FuncionariosController : Controller
@@ -18,13 +20,13 @@ namespace HAPPYWeb.view.Controllers
             return View(oList);
         }
 
-        // GET: FuncionariosController/Details/5
+        // GET: Details
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: FuncionariosController/Create
+        // GET: Create
         public ActionResult Create()
         {
             return View();
@@ -44,7 +46,7 @@ namespace HAPPYWeb.view.Controllers
         public ActionResult Edit(int id)
         {
             Tboficial oOficial = odb.Tboficial.Find(id);
-            return View();
+            return View(oOficial);
         }
 
         // POST: Edit
@@ -59,13 +61,16 @@ namespace HAPPYWeb.view.Controllers
             return RedirectToAction("Index");
         }
 
-        // GET: FuncionariosController/Delete/5
+        // GET: Delete
         public ActionResult Delete(int id)
         {
-            return View();
+            Tboficial oOficial = odb.Tboficial.Find(id);
+            odb.Entry(oOficial).State = EntityState.Deleted;
+            odb.SaveChanges();
+            return RedirectToAction(nameof(Index));
         }
 
-        // POST: FuncionariosController/Delete/5
+        // POST: Delete
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)

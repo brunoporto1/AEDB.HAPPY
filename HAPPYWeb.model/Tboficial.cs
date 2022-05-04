@@ -13,17 +13,18 @@ namespace HAPPYWeb.model
     {
         [Key]
         [Display(Name = "Código")]
+        [Required(ErrorMessage = "Informe o código.")]
 
         public int Codigo { get; set; }
 
 
-        [Required]
+        [Required(ErrorMessage = "Informe o nome.")]
         [StringLength(30)]
         [Unicode(false)]
         public string Nome { get; set; }
 
 
-        [Required]
+        [Required(ErrorMessage = "Informe o CPF.")]
         [Column("CPF")]
         [StringLength(11)]
         [Unicode(false)]
@@ -31,26 +32,26 @@ namespace HAPPYWeb.model
         public string Cpf { get; set; }
 
 
-        [Required]
+        [Required(ErrorMessage = "Informe o endereço.")]
         [StringLength(25)]
         [Unicode(false)]
         [Display(Name = "Endereço")]
         public string Endereco { get; set; }
 
 
-        [Required]
+        [Required(ErrorMessage = "Informe o bairro.")]
         [StringLength(25)]
         [Unicode(false)]
         public string Bairro { get; set; }
 
 
-        [Required]
+        [Required(ErrorMessage = "Informe a cidade.")]
         [StringLength(20)]
         [Unicode(false)]
         public string Cidade { get; set; }
 
 
-        [Required]
+        [Required(ErrorMessage = "Informe o CEP.")]
         [Column("CEP")]
         [StringLength(8)]
         [Unicode(false)]
@@ -58,13 +59,13 @@ namespace HAPPYWeb.model
         public string Cep { get; set; }
 
 
-        [Required]
+        [Required(ErrorMessage = "Informe o telefone.")]
         [StringLength(11)]
         [Unicode(false)]
         public string Telefone { get; set; }
 
 
-        [Required]
+        [Required(ErrorMessage = "Informe o e-mail.")]
         [StringLength(50)]
         [Unicode(false)]
         [Display(Name = "E-mail")]
@@ -72,7 +73,7 @@ namespace HAPPYWeb.model
         public string Email { get; set; }
 
 
-        [Required]
+        [Required(ErrorMessage = "Informe o cargo atual.")]
         [StringLength(20)]
         [Unicode(false)]
         public string Cargo { get; set; }
