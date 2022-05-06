@@ -52,13 +52,18 @@ namespace HAPPYWeb.view.Controllers
         // POST: Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, Tboficial oOficial)
+        public ActionResult Edit(Tboficial oOficial)
         {
-            var oOficialBanco = odb.Tboficial.Find(id);
-            oOficialBanco.Nome = oOficial.Nome;
-            odb.Entry(oOficialBanco).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            odb.Entry(oOficial).State = EntityState.Modified;
             odb.SaveChanges();
-            return RedirectToAction("Index");
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
         }
 
         // GET: Delete

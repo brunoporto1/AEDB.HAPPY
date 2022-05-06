@@ -12,6 +12,7 @@ namespace HAPPYWeb.model
     public partial class Tbprodutos
     {
         [Key]
+        [Required(ErrorMessage = "Informe o código do produto")]
         [Display(Name = "Código do produto")]
         public int Id { get; set; }
 

@@ -18,8 +18,11 @@ namespace HAPPYWeb.model
 
         [Key]
         [Display(Name = "Código da marca")]
+        [Required(ErrorMessage = "Informe o código da marca")]
         public int Id { get; set; }
-        [Required]
+
+
+        [Required(ErrorMessage = "Informe o nome da marca")]
         [StringLength(50)]
         [Unicode(false)]
         [Display(Name = "Marca")]
